@@ -108,7 +108,7 @@ In this section, you create an Azure Databricks workspace using the Azure portal
     |**Subscription**     | From the drop-down, select your Azure subscription.        |
     |**Resource group**     | Create a new resource group. A resource group is a container that holds related resources for an Azure solution. For more information, see [Azure Resource Group overview](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-resource-manager/resource-group-overview.md). |
     |**Location**     | Select **Canada Central**. For other available regions, see [Azure services available by region](https://azure.microsoft.com/regions/services/).        |
-    |**Pricing Tier**     |  Choose **Trial (Premium – 14-Days Free DBUs)**. For more information on these tiers, see [Databricks pricing page](https://azure.microsoft.com/pricing/details/databricks/).       |
+    |**Pricing Tier**     |  Choose **Standard**. For more information on these tiers, see [Databricks pricing page](https://azure.microsoft.com/pricing/details/databricks/).       |
 
     ![Create an Azure Databricks workspace](ReadmeImages/CreateADBR2.jpg "Create an Azure Databricks workspace")
 
@@ -128,7 +128,7 @@ You can pin the Azure Databricks workspace after it is created as well.
 
 2. You are redirected to the Azure Databricks portal. From the portal, click **Cluster**.
 
-    ![Databricks on Azure](cluster.jpg "Databricks on Azure")
+    ![Databricks on Azure](ReadmeImages/cluster.jpg "Databricks on Azure")
 
 3. In the **New cluster** page, provide the values to create a cluster.
 
