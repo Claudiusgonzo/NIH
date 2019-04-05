@@ -92,9 +92,10 @@ In this quickstart, as part of the Spark job, you analyze clinical data to gain 
 
 In this section, you create an Azure Databricks workspace using the Azure portal.
 
-1. In the Azure portal, select **Create a resource** > **Data + Analytics** > **Azure Databricks**.
+1. In the Azure portal, select **All Services** > **Analytics** > **Azure Databricks**.
 
-    ![Databricks on Azure portal](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-databricks/media/quickstart-create-databricks-workspace-portal/azure-databricks-on-portal.png "Databricks on Azure portal")
+    ![Databricks on Azure portal](ReadmeImages/AzureDBR.jpg "Databricks on Azure portal")
+
 
 2. Under **Azure Databricks Service**, provide the values to create a Databricks workspace.
 
