@@ -31,33 +31,52 @@ You will be provided with a Free to use Azure Pass account code. Please treat th
 
 ## Creating a Microsoft Azure Pass Subscription
 Creating an Azure Pass subscription is a two-step process.
-### 1. Redeem your Azure Pass Promo Code
-Navigate to www.microsoftazurepass.com, preferably in a new _In-Private Browser session_.
+
+### Step 1: Redeeming a Microsoft Azure Pass Promo Code:
+Open a browser and navigate to: www.microsoftazurepass.com
+It is recommended you close all browsers and open a new In-Private Browser session. Other log-ins can persist and cause errors during the activation step.
+Click the start button to get started.
 
 Create an email here if needed: https://signup.live.com 
 
 <img src="ReadmeImages/Redeem1.png" width="600">
 
+Enter your account login information and select “Sign In”.
+
+Click “Confirm” if the correct email address is listed.
+
 <img src="ReadmeImages/Redeem2.png" width="600">
+
+Enter your promo code in the Promo code box and click “Claim Promo Code”.
 
 <img src="ReadmeImages/Redeem3.png" width="600">
 
+It may take up to 5 minutes to process the redemption.
+
 <img src="ReadmeImages/Redeem4.png" width="600">
+
+Click on “Activate” to start setting up your Azure subscription.
 
 <img src="ReadmeImages/Redeem5.png" width="600">
 
-### 2. Activate your subscription
-Now you need to activate your subscription after redeeming your Azure Pass code.
+### Step 2: Activate your subscription:
+Enter your account information and click “Next”.
 
 <img src="ReadmeImages/Redeem6.png" width="600">
 
+Enter your phone number and click “Next”.
+
 <img src="ReadmeImages/Redeem7.png" width="600">
+
+It may take a few minutes to process the request.
 
 <img src="ReadmeImages/Redeem8.png" width="600">
 
 <img src="ReadmeImages/Redeem9.png" width="600">
 
 <img src="ReadmeImages/Redeem10.png" width="600">
+
+Your subscription is ready, click “Get started” to use Azure services.
 
 <img src="ReadmeImages/Redeem11.png" width="600">
 
