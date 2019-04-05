@@ -34,27 +34,29 @@ Navigate to www.microsoftazurepass.com, preferably in a new _In-Private Browser 
 
 Create an email here if needed: https://signup.live.com 
 
-<img src="ReadmeImages/Redeem1.png" width=“600”>
+<img src="ReadmeImages/Redeem1.png" width="600">
 
-<img src="ReadmeImages/Redeem2.png" width=“600”>
+<img src="ReadmeImages/Redeem2.png" width="600">
 
-<img src="ReadmeImages/Redeem3.png" width=“600”>
+<img src="ReadmeImages/Redeem3.png" width="600">
 
-<img src="ReadmeImages/Redeem4.png" width=“600”>
+<img src="ReadmeImages/Redeem4.png" width="600">
 
-<img src="ReadmeImages/Redeem5.png" width=“600”>
+<img src="ReadmeImages/Redeem5.png" width="600">
 
 ### 2. Activate your subscription
 Now you need to activate your subscription after redeeming your Azure Pass code.
 
-<img src="ReadmeImages/Redeem6.png" width=“300”>
+<img src="ReadmeImages/Redeem6.png" width="600">
 
-<img src="ReadmeImages/Redeem7.png" width=“600”>
+<img src="ReadmeImages/Redeem7.png" width="600">
 
-<img src="ReadmeImages/Redeem8.png" width=“600”>
+<img src="ReadmeImages/Redeem8.png" width="600">
 
-<img src="ReadmeImages/Redeem9.png" width=“600”>
+<img src="ReadmeImages/Redeem9.png" width="600">
 
-<img src="ReadmeImages/Redeem10.png" width=“600”>
+<img src="ReadmeImages/Redeem10.png" width="600">
 
-<img src="ReadmeImages/Redeem11.png" width=“600”>
+<img src="ReadmeImages/Redeem11.png" width="600">
+
+
