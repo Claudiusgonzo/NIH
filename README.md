@@ -61,4 +61,5 @@ Now you need to activate your subscription after redeeming your Azure Pass code.
 
 <img src="ReadmeImages/Redeem11.png" width="600">
 
-
+## Get Started 
+You’re all set. Now get started with your Azure Portal: **http://portal.azure.com**
