@@ -68,9 +68,9 @@ Enter your phone number and click “Next”.
 
 <img src="ReadmeImages/Redeem7.png" width="600">
 
-It may take a few minutes to process the request.
-
 <img src="ReadmeImages/Redeem8.png" width="600">
+
+It may take a few minutes to process the request.
 
 <img src="ReadmeImages/Redeem9.png" width="600">
 
