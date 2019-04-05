@@ -137,3 +137,9 @@ In this section, you create an Azure Databricks workspace using the Azure portal
      Select **Create cluster**. Once the cluster is running, you can attach notebooks to the cluster and run Spark jobs.
 
 For more information on creating clusters, see [Create a Spark cluster in Azure Databricks](https://docs.azuredatabricks.net/user-guide/clusters/create.html).
+
+
+## Download a sample data file
+Download a sample JSON data file and save it into Azure blob storage.
+
+1. Download this sample JSON data file [from GitHub](https://raw.githubusercontent.com/Azure/usql/master/Examples/Samples/Data/json/radiowebsite/small_radio_json.json) onto your local computer. Right-click and save as to save the raw file locally.
