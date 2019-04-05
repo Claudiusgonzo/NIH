@@ -82,3 +82,59 @@ Your subscription is ready, click “Get started” to use Azure services.
 
 ## Get Started 
 You’re all set. To can access your subscription again later navigate to Azure Portal: **http://portal.azure.com**
+
+# Azure Databricks 
+This quickstart shows how to create an Azure Databricks workspace and an Apache Spark cluster within that workspace. Finally, you learn how to run a Spark job on the Databricks cluster. For more information on Azure Databricks, see [What is Azure Databricks?]( https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-databricks/what-is-azure-databricks.md)
+
+In this quickstart, as part of the Spark job, you analyze clinical data to gain insights into patient **XXXAMIRtoModifyXXX**
+
+## Create an Azure Databricks workspace
+
+In this section, you create an Azure Databricks workspace using the Azure portal.
+
+1. In the Azure portal, select **Create a resource** > **Data + Analytics** > **Azure Databricks**.
+
+    ![Databricks on Azure portal](./media/quickstart-create-databricks-workspace-portal/azure-databricks-on-portal.png "Databricks on Azure portal")
+
+2. Under **Azure Databricks Service**, provide the values to create a Databricks workspace.
+
+    ![Create an Azure Databricks workspace](./media/quickstart-create-databricks-workspace-portal/create-databricks-workspace.png "Create an Azure Databricks workspace")
+
+    Provide the following values:
+    
+    |Property  |Description  |
+    |---------|---------|
+    |**Workspace name**     | Provide a name for your Databricks workspace        |
+    |**Subscription**     | From the drop-down, select your Azure subscription.        |
+    |**Resource group**     | Create a new resource group. A resource group is a container that holds related resources for an Azure solution. For more information, see [Azure Resource Group overview](../azure-resource-manager/resource-group-overview.md). |
+    |**Location**     | Select **East US**. For other available regions, see [Azure services available by region](https://azure.microsoft.com/regions/services/).        |
+    |**Pricing Tier**     |  Choose between **Standard** or **Premium**. For more information on these tiers, see [Databricks pricing page](https://azure.microsoft.com/pricing/details/databricks/).       |
+
+    Select **Pin to dashboard** and then click **Create**.
+
+4. The workspace creation takes a few minutes. During workspace creation, the portal displays the **Submitting deployment for Azure Databricks** tile on the right side. You may need to scroll right on your dashboard to see the tile. There is also a progress bar displayed near the top of the screen. You can watch either area for progress.
+
+    ![Databricks deployment tile](./media/quickstart-create-databricks-workspace-portal/databricks-deployment-tile.png "Databricks deployment tile")
+
+## Create a Spark cluster in Databricks
+
+1. In the Azure portal, go to the Databricks workspace that you created, and then click **Launch Workspace**.
+
+2. You are redirected to the Azure Databricks portal. From the portal, click **Cluster**.
+
+    ![Databricks on Azure](./media/quickstart-create-databricks-workspace-portal/databricks-on-azure.png "Databricks on Azure")
+
+3. In the **New cluster** page, provide the values to create a cluster.
+
+    ![Create Databricks Spark cluster on Azure](./media/quickstart-create-databricks-workspace-portal/create-databricks-spark-cluster.png "Create Databricks Spark cluster on Azure")
+
+    Accept all other default values other than the following:
+
+   * Enter a name for the cluster.
+   * For this workshop, create a cluster with **4.0** runtime.
+   * Make sure you select the **Terminate after \_\_ minutes of inactivity** checkbox. Provide a duration (in minutes) to terminate the cluster, if the cluster is not being used.
+    
+     Select **Create cluster**. Once the cluster is running, you can attach notebooks to the cluster and run Spark jobs.
+
+For more information on creating clusters, see [Create a Spark cluster in Azure Databricks](https://docs.azuredatabricks.net/user-guide/clusters/create.html).
+
