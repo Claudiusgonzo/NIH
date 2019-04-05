@@ -81,4 +81,4 @@ Your subscription is ready, click “Get started” to use Azure services.
 <img src="ReadmeImages/Redeem11.png" width="600">
 
 ## Get Started 
-You’re all set. Now get started with your Azure Portal: **http://portal.azure.com**
+You’re all set. To can access your subscription again later by navigating to Azure Portal: **http://portal.azure.com**
