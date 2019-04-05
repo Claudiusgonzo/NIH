@@ -128,7 +128,7 @@ You can pin the Azure Databricks workspace after it is created as well.
 
 2. You are redirected to the Azure Databricks portal. From the portal, click **Cluster**.
 
-    ![Databricks on Azure](cluster.jpg "Databricks on Azure")
+    ![Databricks on Azure](ReadmeImages/cluster.jpg "Databricks on Azure")
 
 3. In the **New cluster** page, provide the values to create a cluster.
 
