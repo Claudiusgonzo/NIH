@@ -132,7 +132,7 @@ You can pin the Azure Databricks workspace after it is created as well.
 
 3. In the **New cluster** page, provide the values to create a cluster.
 
-    ![Create Databricks Spark cluster on Azure](ReadmeImages/Cluster.jpg "Create Databricks Spark cluster on Azure")
+    ![Create Databricks Spark cluster on Azure](ReadmeImages/CreateADBR2standard.jpg "Create Databricks Spark cluster on Azure")
 
     Accept all other default values other than the following:
 
@@ -143,3 +143,4 @@ You can pin the Azure Databricks workspace after it is created as well.
      Select **Create cluster**. Once the cluster is running, you can attach notebooks to the cluster and run Spark jobs.
 
 For more information on creating clusters, see [Create a Spark cluster in Azure Databricks](https://docs.azuredatabricks.net/user-guide/clusters/create.html).
+
