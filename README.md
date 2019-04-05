@@ -137,6 +137,7 @@ You can pin the Azure Databricks workspace after it is created as well.
     Accept all other default values other than the following:
 
    * Enter a name for the cluster.
+   * Change min Workers to **1** and Max Workers to **2**
    * For this workshop, create a cluster with **4.0** runtime.
    * Make sure you select the **Terminate after \_\_ minutes of inactivity** checkbox. Provide a duration (in minutes) to terminate the cluster, if the cluster is not being used.
     
