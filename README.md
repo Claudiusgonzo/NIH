@@ -47,7 +47,7 @@ Create an email here if needed: https://signup.live.com
 ### 2. Activate your subscription
 Now you need to activate your subscription after redeeming your Azure Pass code.
 
-<img src="ReadmeImages/Redeem6.png" width=“600”>
+<img src="ReadmeImages/Redeem6.png" width=“300”>
 
 <img src="ReadmeImages/Redeem7.png" width=“600”>
 
