@@ -110,7 +110,7 @@ In this section, you create an Azure Databricks workspace using the Azure portal
     |**Location**     | Select **Canada Central**. For other available regions, see [Azure services available by region](https://azure.microsoft.com/regions/services/).        |
     |**Pricing Tier**     |  Choose **Standard**. For more information on these tiers, see [Databricks pricing page](https://azure.microsoft.com/pricing/details/databricks/).       |
 
-    ![Create an Azure Databricks workspace](ReadmeImages/CreateADBR2.jpg "Create an Azure Databricks workspace")
+    ![Create an Azure Databricks workspace]( ReadmeImages/CreateADBR2standard.jpg "Create an Azure Databricks workspace")
 
     Select **Pin to dashboard** and then click **Create**.
 
@@ -128,11 +128,11 @@ You can pin the Azure Databricks workspace after it is created as well.
 
 2. You are redirected to the Azure Databricks portal. From the portal, click **Cluster**.
 
-    ![Databricks on Azure](ReadmeImages/cluster.jpg "Databricks on Azure")
+    ![Databricks on Azure](cluster.jpg "Databricks on Azure")
 
 3. In the **New cluster** page, provide the values to create a cluster.
 
-    ![Create Databricks Spark cluster on Azure](ReadmeImages/CreateADBR2standard.jpg "Create Databricks Spark cluster on Azure")
+    ![Create Databricks Spark cluster on Azure](ReadmeImages/cluster2.jpg "Create Databricks Spark cluster on Azure")
 
     Accept all other default values other than the following:
 
@@ -143,4 +143,3 @@ You can pin the Azure Databricks workspace after it is created as well.
      Select **Create cluster**. Once the cluster is running, you can attach notebooks to the cluster and run Spark jobs.
 
 For more information on creating clusters, see [Create a Spark cluster in Azure Databricks](https://docs.azuredatabricks.net/user-guide/clusters/create.html).
-
