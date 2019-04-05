@@ -35,5 +35,26 @@ Navigate to www.microsoftazurepass.com, preferably in a new _In-Private Browser 
 Create an email here if needed: https://signup.live.com 
 
 <img src="ReadmeImages/Redeem1.png">
+
+<img src="ReadmeImages/Redeem2.png">
+
+<img src="ReadmeImages/Redeem3.png">
+
+<img src="ReadmeImages/Redeem4.png">
+
+<img src="ReadmeImages/Redeem5.png">
+
+<img src="ReadmeImages/Redeem6.png">
+
+<img src="ReadmeImages/Redeem7.png">
+
+<img src="ReadmeImages/Redeem8.png">
+
+<img src="ReadmeImages/Redeem9.png">
+
+<img src="ReadmeImages/Redeem10.png">
+
+<img src="ReadmeImages/Redeem11.png">
+
 ### 2. Activate your subscription
 
