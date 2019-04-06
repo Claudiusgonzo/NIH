@@ -3,7 +3,7 @@
 # MAGIC ### Model Training and ML
 # MAGIC 
 # MAGIC <div style="text-align: center; line-height: 0; padding-top: 9px;">
-# MAGIC <img src="https://s3.us-east-2.amazonaws.com/databricks-knowledge-repo-images/ML/ML-workflow.png" width=1000>
+# MAGIC <img src="https://databricks.com/wp-content/uploads/2018/07/5-ML-workflow.png" width=1000>
 # MAGIC </div>
 
 # COMMAND ----------
