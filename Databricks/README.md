@@ -8,7 +8,7 @@ Toronto - April 8, 2019
 
   ![Import GitHub Repo to Databricks](../ReadmeImages/importGit.jpg "Import from GitHub")
 
-2. Select URL and paste the notebook URL (https://github.com/azureinfra/NIH/blob/master/Databricks/predict_heartDisease_from_ehr_data.py), then click on **Import**
+2. Select URL and paste the notebook URL (https://raw.githubusercontent.com/azureinfra/NIH/master/Databricks/predict_heartDisease_from_ehr_data.py), then click on **Import**
 
   ![Import via URL](../ReadmeImages/url.jpg "Import via URL")
   
