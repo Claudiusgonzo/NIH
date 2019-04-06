@@ -21,7 +21,7 @@
 # MAGIC   
 # MAGIC 3) Exploration: Demonstrate the platform's capabilities for query, multi language support and visualization of the data
 # MAGIC   
-# MAGIC 4) Training, tracking and saving a model using MLFlow: We show how to create a classifer to predict if a patient is diabetic given demographic information and obesety 
+# MAGIC 4) Training, tracking and saving a model using MLFlow: We show how to create a classifer to predict if a patient is at higher risk of heart disease given demographic information and smoking habits 
 
 # COMMAND ----------
 
@@ -122,7 +122,7 @@ display(smoking_heartDisease_df)
 # MAGIC <div style="text-align: center; line-height: 0; padding-top: 9px;">
 # MAGIC <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png" width=100>
 # MAGIC </div>
-# MAGIC Use R's statistical tools to investigate correlation between diabetes and obesety
+# MAGIC Use R's statistical tools to investigate correlation between heart disease and smoking
 
 # COMMAND ----------
 
@@ -155,7 +155,7 @@ smoking_heartDisease_df.createOrReplaceTempView('DfForR')
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### Now let's create a dataset for training a model that predicts whether a person is diabetic based on obesity and demographics
+# MAGIC ### Now let's create a dataset for training a model that predicts whether a person is at higher risk based on smoking habits and demographics
 
 # COMMAND ----------
 
@@ -261,6 +261,30 @@ display(dataset)
 
 # COMMAND ----------
 
+def train_tarck_and_load(df, max_iter=10, reg_param=0.3):
+  categoricalColumns = ['MARITAL','RACE','ETHNICITY','GENDER','ZIP']  
+  
+  with mlflow.start_run() as run:
+    
+    # Create initial LogisticRegression model
+    (trainingData, testData) = dataset.randomSplit([0.5, 0.5], seed=42)
+    lr = LogisticRegression(labelCol="label", featuresCol="features", maxIter=max_iter, regParam=reg_param)
+    # Train model with Training Data
+    pipeline = Pipeline(stages=[lr])
+    
+    lrModel = pipeline.fit(trainingData)
+    predictions = lrModel.transform(testData)
+    evaluator = BinaryClassificationEvaluator(rawPredictionCol="rawPrediction")
+    areaUnderROC = evaluator.evaluate(predictions)
+    
+    mlflow.log_param("max_iter", max_iter)
+    mlflow.log_param("reg_param", reg_param)
+    mlflow.log_metric("area_under_ROC", areaUnderROC)
+    mlflow.spark.log_model(lrModel, "lrModel")
+    return(run.info)
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC Run training
 
@@ -308,7 +332,3 @@ sns.set(style="whitegrid")
 
 g=sns.violinplot(x='age_group', y='error', data=df_pd, kind='boxen')
 display(g.figure)
-
-# COMMAND ----------
-
-
