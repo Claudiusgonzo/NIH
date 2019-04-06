@@ -12,4 +12,13 @@ Toronto - April 8, 2019
 
   ![Import via URL](../ReadmeImages/url.jpg "Import via URL")
   
+## Connect MLflow to the Cluster 
+1. To connect MLflow to the cluster, click on **Clusters** from the left pane and select your cluster. 
+
+  ![Select Cluster](../ReadmeImages/mlflowcluster.jpg "Select Cluster")
+  
+2. Select **Libraries** and click on **Install New**. In the Library Source button list, select **PyPI** and type **mlflow** in the package field. 
+
+  ![Install MLflow](../ReadmeImages/mlflowpypi.jpg "Instal MLflow")
+  
   
