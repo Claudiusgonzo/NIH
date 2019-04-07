@@ -90,8 +90,8 @@ Included data science tools
 The following tools are included in a DSVM:
 
 Azure Machine Learning service Python SDK
-Microsoft Machine Learning Server Developer edition
-Anaconda Python distribution
+Microsoft Machine Learning Server Developer edition;
+Anaconda Python distribution;
 Jupyter Notebook with R, Python, and PySpark kernels
 Microsoft Visual Studio Community
 Microsoft Power BI Desktop
