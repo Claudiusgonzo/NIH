@@ -88,9 +88,13 @@ The Microsoft Windows Data Science Virtual Machine (DSVM) is a Windows Server 20
 
 To create a DSVM instance:
 
-Go to the virtual machine listing on the Azure portal. You may be prompted to sign in to your Azure account if you are not already signed in.
+1. Go to the virtual machine listing on the Azure portal. You may be prompted to sign in to your Azure account if you are not already signed in.
 
-Select the Create button at the bottom.
+2. Select the Create button at the bottom.
+
+<img src="ReadmeImages/configure-data-science-virtual-machine.png" width="1000">
+
+
 
 # Azure Databricks 
 This quickstart shows how to create an Azure Databricks workspace and an Apache Spark cluster within that workspace. Finally, you learn how to run a Spark job on the Databricks cluster. For more information on Azure Databricks, see [What is Azure Databricks?](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-databricks/what-is-azure-databricks.md)
