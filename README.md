@@ -105,13 +105,18 @@ a) Basics:
 - Resource Group. You can create a new one or use an existing group.
 - Location. Select the data center that's most appropriate. For fastest network access, it's the data center that has most of your data or is closest to your physical location.
 
-b) Size: Select one of the server types that meets your functional requirements and cost constraints. For more choices of VM sizes, select View All.
+b) Size: 
+Select one of the server types that meets your functional requirements and cost constraints. For more choices of VM sizes, select View All.
 
 c) Settings:
 - Use Managed Disks. Choose Managed if you want Azure to manage the disks for the VM. If not, you need to specify a new or existing storage account.
 Other parameters. You can use the default values. If you want to use non-default values, hover over the informational link for help on the specific fields.
 
-d) Summary: Verify that all the information you entered is correct. Select Create.
+d) Summary: 
+Verify that all the information you entered is correct. Select Create.
+
+# How to access the DSVM
+After the VM is created and provisioned, you can remote desktop into it by using the admin account credentials that you configured in the preceding Basics section. You're ready to start using the tools that are installed and configured on the VM. Many of the tools can be accessed through start menu tiles and desktop icons.
 
 
 # Azure Databricks 
