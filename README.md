@@ -86,27 +86,11 @@ You’re all set. To can access your subscription again later navigate to Azure 
 # Azure Data Science VM
 The Microsoft Windows Data Science Virtual Machine (DSVM) is a Windows Server 2016 virtual machine (VM) image on Azure that comes preinstalled and configured with tools for data analytics and machine learning.
 
-Included data science tools
-The following tools are included in a DSVM:
+To create a DSVM instance:
 
-Azure Machine Learning service Python SDK
-Microsoft Machine Learning Server Developer edition;
-Anaconda Python distribution;
-Jupyter Notebook with R, Python, and PySpark kernels
-Microsoft Visual Studio Community
-Microsoft Power BI Desktop
-Microsoft SQL Server 2017 Developer edition
-A standalone Apache Spark instance for local development and testing
-JuliaPro
-Machine learning and data analytics tools:
-Deep learning frameworks - a rich set of AI frameworks are included on the VM: Microsoft Cognitive Toolkit, TensorFlow, Chainer, mxNet, and Keras
-Vowpal Wabbit - a fast machine learning system that supports techniques like online hashing, allreduce, reductions, learning2search, and active and interactive learning
-XGBoost - a tool that provides fast and accurate boosted tree implementation
-Rattle - the R analytical tool that gets you started with data analytics and machine learning in R. It includes GUI-based data exploration and modeling with automatic R code generation.
-Weka - visual data mining and machine learning software in Java
-Apache Drill - a schema-free SQL query engine for Apache Hadoop, NoSQL, and cloud storage. It supports ODBC and JDBC interfaces for querying NoSQL and files from standard BI tools like Power BI, Microsoft Excel, and Tableau.
-Libraries in R and Python for use in Azure Machine Learning and other Azure services
-Git, including Git Bash, to work with source code repositories that include GitHub and Azure DevOps. Git provides several popular Linux command-line utilities that are accessible both on Git Bash and a command prompt. Examples are awk, sed, perl, grep, find, wget, and curl.
+Go to the virtual machine listing on the Azure portal. You may be prompted to sign in to your Azure account if you are not already signed in.
+
+Select the Create button at the bottom.
 
 # Azure Databricks 
 This quickstart shows how to create an Azure Databricks workspace and an Apache Spark cluster within that workspace. Finally, you learn how to run a Spark job on the Databricks cluster. For more information on Azure Databricks, see [What is Azure Databricks?](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-databricks/what-is-azure-databricks.md)
