@@ -104,10 +104,13 @@ a) Basics:
 - Subscription: If you have more than one subscription, select the one on which the machine is to be created and billed.
 - Resource Group. You can create a new one or use an existing group.
 - Location. Select the data center that's most appropriate. For fastest network access, it's the data center that has most of your data or is closest to your physical location.
+
 b) Size: Select one of the server types that meets your functional requirements and cost constraints. For more choices of VM sizes, select View All.
+
 c) Settings:
 - Use Managed Disks. Choose Managed if you want Azure to manage the disks for the VM. If not, you need to specify a new or existing storage account.
 Other parameters. You can use the default values. If you want to use non-default values, hover over the informational link for help on the specific fields.
+
 d) Summary: Verify that all the information you entered is correct. Select Create.
 
 
