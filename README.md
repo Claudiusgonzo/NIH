@@ -118,6 +118,42 @@ Verify that all the information you entered is correct. Select Create.
 # How to access the DSVM
 After the VM is created and provisioned, you can remote desktop into it by using the admin account credentials that you configured in the preceding Basics section. You're ready to start using the tools that are installed and configured on the VM. Many of the tools can be accessed through start menu tiles and desktop icons.
 
+# Create a storage account
+Now you are ready to create your storage account.
+
+Every storage account must belong to an Azure resource group. A resource group is a logical container for grouping your Azure services. When you create a storage account, you have the option to either create a new resource group, or use an existing resource group. This quickstart shows how to create a new resource group.
+
+A general-purpose v2 storage account provides access to all of the Azure Storage services: blobs, files, queues, tables, and disks. The quickstart creates a general-purpose v2 storage account, but the steps to create any type of storage account are similar.
+
+To create a general-purpose v2 storage account in the Azure portal, follow these steps:
+
+1. In the Azure portal, select All services. In the list of resources, type Storage Accounts. As you begin typing, the list filters based on your input. Select Storage Accounts.
+
+2. On the Storage Accounts window that appears, choose Add.
+
+3. Select the subscription in which to create the storage account.
+
+4. Under the Resource group field, select Create new. Enter a name for your new resource group, as shown in the following image.
+
+<img src="ReadmeImages/create-resource-group.png" width="1000">
+
+5. Next, enter a name for your storage account. The name you choose must be unique across Azure. The name also must be between 3 and 24 characters in length, and can include numbers and lowercase letters only.
+
+6. Select a location for your storage account, or use the default location.
+
+7. Leave these fields set to their default values:
+
+Field	                            Value
+Deployment model	                 Resource Manager
+Performance	                      Standard
+Account kind	                     StorageV2 (general-purpose v2)
+Replication	                      Locally redundant storage (LRS)
+Access tier	                      Hot
+
+8. Select Review + Create to review your storage account settings and create the account.
+
+9. Select Create.
+
 
 # Azure Databricks 
 This quickstart shows how to create an Azure Databricks workspace and an Apache Spark cluster within that workspace. Finally, you learn how to run a Spark job on the Databricks cluster. For more information on Azure Databricks, see [What is Azure Databricks?](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-databricks/what-is-azure-databricks.md)
